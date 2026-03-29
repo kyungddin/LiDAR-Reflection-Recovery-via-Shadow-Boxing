@@ -1,9 +1,9 @@
 # LiDAR Reflection Recovery via Shadow Boxing
 <div align="left">
-  <img src="img/front1.PNG"/>
+  <img src="img/front1.PNG" width="350"/>
 </div>
 <div align="right">
-  <img src="img/front2.PNG"/>
+  <img src="img/front2.PNG" width="350"/>
 </div>
 - This is my first paper accepted in ICTC 2025.
 - You can see full paper in nsl website!
