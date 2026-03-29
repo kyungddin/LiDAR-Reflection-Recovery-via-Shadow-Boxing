@@ -17,7 +17,7 @@
 
 ## Problem
 <div align="center">
-  <img src="img/problem.PNG" widte="500" />
+  <img src="img/problem.PNG" widte="350" />
 </div>
 
 - LiDAR sensors are vulnerable to reflective surfaces such as mirrors or glass.
@@ -29,7 +29,7 @@
 
 ## Method
 <div align="center">
-  <img src="img/method.PNG" widte="500" />
+  <img src="img/method.PNG" widte="350" />
 </div>
 
 - Mirror Detection: Utilizes the LiDAR's Dual Return feature (based on Ouster OS1-32). Dense Second Return points generated on the mirror surface are clustered using the DBSCAN algorithm. Then, a PCA-based planarity check and the RANSAC algorithm are applied to accurately identify the mirror plane.
