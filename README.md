@@ -44,10 +44,10 @@
 ## Results
   <tr>
     <td align="center">
-      <img src="img/result.PNG"/>
+      <img src="img/result1.PNG"/>
     </td>
     <td align="center">
-      <img src="img/fps.PNG"/>
+      <img src="img/result2.PNG"/>
     </td>
   </tr>
 </table>
