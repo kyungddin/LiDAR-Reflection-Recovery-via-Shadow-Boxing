@@ -47,7 +47,7 @@
       <img src="img/result1.PNG"/>
     </td>
     <td align="center">
-      <img src="img/result2.PNG"/>
+      <img src="img/result2.png"/>
     </td>
   </tr>
 </table>
