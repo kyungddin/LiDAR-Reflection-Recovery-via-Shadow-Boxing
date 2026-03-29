@@ -1,10 +1,14 @@
 # LiDAR Reflection Recovery via Shadow Boxing
-<div align="left">
-  <img src="img/front1.PNG" width="350"/>
-</div>
-<div align="right">
-  <img src="img/front2.PNG" width="350"/>
-</div>
+<table>
+  <tr>
+    <td align="center">
+      <img src="img/front1.PNG" width="350"/>
+    </td>
+    <td align="center">
+      <img src="img/front2.PNG" width="350"/>
+    </td>
+  </tr>
+</table>
 - This is my first paper accepted in ICTC 2025.
 - You can see full paper in nsl website!
     - https://nsl.cau.ac.kr/papers/ictc/ictc2025-kim-lidar-mirror.pdf
