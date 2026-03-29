@@ -42,6 +42,7 @@
 
 
 ## Results
+<table>
   <tr>
     <td align="center">
       <img src="img/result1.PNG"/>
