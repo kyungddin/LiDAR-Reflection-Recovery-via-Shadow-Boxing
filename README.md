@@ -11,11 +11,12 @@
 </table>
 
 - This is my first paper accepted in ICTC 2025!
-- You can see full paper in nsl website!
+- You can see full paper in "NSL" website!
     - https://nsl.cau.ac.kr/papers/ictc/ictc2025-kim-lidar-mirror.pdf
 
 
 ## Problem
+<img src="img/problem.PNG"/>
 - LiDAR sensors are vulnerable to reflective surfaces such as mirrors or glass.
 
 - When a laser reflected by a mirror hits another object, the sensor incorrectly assumes the laser traveled straight through, generating a "hallucination" point cloud behind the mirror.
@@ -24,6 +25,8 @@
 
 
 ## Method
+<img src="img/method.PNG"/>
+
 - Mirror Detection: Utilizes the LiDAR's Dual Return feature (based on Ouster OS1-32). Dense Second Return points generated on the mirror surface are clustered using the DBSCAN algorithm. Then, a PCA-based planarity check and the RANSAC algorithm are applied to accurately identify the mirror plane.
 
 - Shadow Boxing: Creates a virtual bounding box (Shadow Box) behind the mirror along the laser path, sized according to the mirror's dimensions, to effectively filter and classify normal points versus reflected points.
@@ -34,6 +37,16 @@
 
 
 ## Results
+  <tr>
+    <td align="center">
+      <img src="img/result.PNG"/>
+    </td>
+    <td align="center">
+      <img src="img/fps.PNG"/>
+    </td>
+  </tr>
+</table>
+
 - Successfully recovered point clouds for the occluded rear and side surfaces of various target objects (air purifier, duck doll, person) that the LiDAR cannot normally detect.
 
 - Demonstrated stable object detection via mirror reflection even under occlusion, where the sensor's direct line of sight is obstructed.
