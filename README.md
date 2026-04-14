@@ -60,9 +60,5 @@
 - Achieved a real-time processing speed of 8.8 FPS with GPU acceleration, marking an approximate 3.2x performance improvement over the CPU-only baseline (2.7 FPS).
 
 
-## Execution
-- Soon!
-
-
 ## Conference Info
 The 16th International Conference on Information and Communication Technology Convergence (ICTC) - ICTC Workshop on Big Data, CPS, and 5G&6G Communication Networks (IWBCN)
